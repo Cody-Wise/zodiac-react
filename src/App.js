@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header/Header.js';
 import Footer from './Footer/Footer.js';
 import Main from './Main/Main.js';
-import { zodiac } from './data';
+import { zodiacs } from './data.js';
 
 
 function App() {
@@ -10,9 +10,10 @@ function App() {
     <div className="App">
       <Header
         name='Cody'/>
-      {/* import and use the Header. Main, and Footer components here */}
-      {/* the Header component needs a string passed in as the `name` prop */}
-      {/* the Footer component needs a year passed in as the `year` prop */}
+
+      <Main
+        zodiacs = {zodiacs}/>
+      
       <Footer
         year='2022'
       />
