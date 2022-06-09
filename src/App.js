@@ -6,8 +6,7 @@ import { zodiacs } from './data.js';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
+
 <link
   rel='stylesheet'
   href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'
