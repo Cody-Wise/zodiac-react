@@ -23,9 +23,6 @@ function App() {
   return (
     <div className='App'>
       <Header name='Cody' />
-      <Button bsPrefix='btn-custom'>Primary</Button>
-      <Button variant='contained'>Hello World</Button>
-      <AirplanemodeActiveIcon />
 
       <Main zodiacs={zodiacs} />
 
