@@ -12,6 +12,10 @@ body {
 }
 
 .btn-custom {
-  background-color: red !important;
-  color: aqua;
+  background-color: rgb(18, 240, 55) !important;
+  color: rgb(24, 71, 173) !important;
+}
+
+.large-icon {
+  font-size: 60px !important;
 }
